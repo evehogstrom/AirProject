@@ -48,7 +48,7 @@ public class Airplanes {
                 
             System.out.println("");             
             System.out.println(nextAirplane.getPlaneName());
-            System.out.println(nextAirplane.getFlightId() + " " + nextAirplane.getDepatureDestination() + " " + nextAirplane.getDepatureDateTime() + " - " + nextAirplane.getArrivaleDestination() + " " + nextAirplane.getArrivaleDateTime() );                       
+            System.out.println(nextAirplane.getFlightId() + " " + nextAirplane.getDepatureDestination() + " " + nextAirplane.getDepatureDateTime() + " - " + nextAirplane.getArrivaleDestination() + " " + nextAirplane.getArrivaleDateTime() + " " + nextAirplane.getAirPlaneStatus()  );                       
             System.out.println("");                                   
             
         }

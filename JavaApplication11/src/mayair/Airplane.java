@@ -7,14 +7,14 @@ public class Airplane {
 
 	//ArrayList<Seat> seats = new ArrayList<Seat>();
 	
-    private String planeName;
+        private String planeName;
         private Seats seats;
         private String flightId ;
         private String depatureDestination;
         private String arrivaleDestination;
         private String depatureTime;
         private String arrivaleTime;
-        private AirPlanStatus eArplanStatus;
+        private AirPlanStatus eAirplanStatus;
         
 // public Airplane(ArrayList<Seat> seats, String planeName) {
     
@@ -26,7 +26,7 @@ public class Airplane {
                 this.arrivaleDestination = arrivaleDestination;
                 this.depatureTime=depatureTime;
                 this.arrivaleTime=arrivaleTime;
-                eArplanStatus = AirPlanStatus.ONAIRPORT;
+                eAirplanStatus = AirPlanStatus.ONAIRPORT;
                 
 	}
 
@@ -57,11 +57,11 @@ public class Airplane {
 	}    
         
         public AirPlanStatus getAirPlaneStatus() {
-            return eArplanStatus;
+            return eAirplanStatus;
 	}  
         
-        public void setAirPlaneStatus(AirPlanStatuse eArplanStatus ) {
-            this.eArplanStatus = eArplanStatus;
+        public void setAirPlaneStatus(AirPlanStatus eAirplanStatus ) {
+            this.eAirplanStatus = eAirplanStatus;
 	}  
                
         @Override
