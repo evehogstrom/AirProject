@@ -390,7 +390,7 @@ public class UserInterface {
        objArplane = new Airplane(objSeats, "Frasses Air One","TFS123","Arlanda","2016-12-01 07:00","Teneriffa","2016-12-01 14:00");
        objArplanes.add(objArplane);  
         
-       objArplane = new Airplane(objSeats, "Gulf Stream One","ARN321","Malaga","2016-12-24 07:00","Arlanda","2016-12-24 14:00");
+       objArplane = new Airplane(objSeats, "Gulf Stream One","ARN321","Mal1aga","2016-12-24 07:00","Arlanda","2016-12-24 14:00");
        objArplanes.add(objArplane);
               
        objArplane = new Airplane(objSeats, "Trump One","USA111","Arlanda","2016-12-11 09:00","New York","2016-12-11 18:00");
