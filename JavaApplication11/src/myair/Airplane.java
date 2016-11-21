@@ -1,7 +1,5 @@
 package myair;
 
-import mayair.AirPlanStatus;
-
 
 public class Airplane {
 
