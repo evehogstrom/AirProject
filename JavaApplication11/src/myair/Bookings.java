@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author User
  */
-public class UserInterface {
+public class Bookings {
 
     private static int nInteger;
     private static int customerId;
@@ -36,7 +36,7 @@ public class UserInterface {
     private boolean nRun;
    
 
-    public UserInterface() {
+    public Bookings() {
 
         nRun = false;
 
