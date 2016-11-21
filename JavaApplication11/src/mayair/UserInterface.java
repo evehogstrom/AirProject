@@ -289,7 +289,7 @@ public class UserInterface {
     {
         objFood  = new Food("Steak", FoodtypeEnum.EconomyClass, 150);
         objFoods.add (objFood);
-        objFood  = new Food("Chicken soup", FoodtypeEnum.EconomyClass, 100);
+        objFood  = new Food("Chickensoup", FoodtypeEnum.EconomyClass, 100);
         objFoods.add (objFood);        
         objFood  = new Food("Sandwitch", FoodtypeEnum.EconomyClass, 50);
         objFoods.add (objFood);
