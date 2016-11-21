@@ -291,15 +291,15 @@ public class UserInterface {
     {
         objFood  = new Food("Steak", FoodtypeEnum.EconomyClass, 150);
         objFoods.add (objFood);
-        objFood  = new Food("Chickensoup", FoodtypeEnum.EconomyClass, 100);
+        objFood  = new Food("Soup", FoodtypeEnum.EconomyClass, 100);
         objFoods.add (objFood);        
         objFood  = new Food("Sandwitch", FoodtypeEnum.EconomyClass, 50);
         objFoods.add (objFood);
         objFood  = new Food("Oyster", FoodtypeEnum.FirstClass, 500);      
         objFoods.add (objFood);
-        objFood  = new Food("Filletofbeef", FoodtypeEnum.FirstClass, 400);
+        objFood  = new Food("Sirloin ", FoodtypeEnum.FirstClass, 400);
         objFoods.add (objFood);
-        objFood  = new Food("Gooseliver" , FoodtypeEnum.FirstClass, 300);
+        objFood  = new Food("Lobster" , FoodtypeEnum.FirstClass, 300);
         objFoods.add (objFood);       
 }
    
@@ -389,7 +389,7 @@ public class UserInterface {
        
    public void intAirPlanes(){
         
-       objArplane = new Airplane(objSeats, "Frasses Air One","TFS123","Arlanda","2016-12-01 07:00","Teneriffa","2016-12-01 14:00");
+       objArplane = new Airplane(objSeats, "Lexicon Air One","TFS123","Arlanda","2016-12-01 07:00","Teneriffa","2016-12-01 14:00");
        objArplanes.add(objArplane);  
         
        objArplane = new Airplane(objSeats, "Gulf Stream One","ARN321","Mal1aga","2016-12-24 07:00","Arlanda","2016-12-24 14:00");
