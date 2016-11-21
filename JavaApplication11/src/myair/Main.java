@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Bookings objUserinterface = new Bookings();
+		UserInterface objUserinterface = new UserInterface();
                 
 		}
 
