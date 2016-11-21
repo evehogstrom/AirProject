@@ -31,11 +31,11 @@ public class Tickets {
         }
                          
        }
-     public void remove(Food ticket){
+     public void remove(Ticket ticket){
         this.tickets.remove(ticket);     
     }
     
-     public void remove(){
+     public void removeAll(){
         this.tickets.removeAll(tickets);     
     }
     

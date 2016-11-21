@@ -53,7 +53,7 @@ public class Foods {
         this.foods.remove(food);     
     }
     
-     public void remove(){
+     public void removeAll(){
         this.foods.removeAll(foods);     
     }
      

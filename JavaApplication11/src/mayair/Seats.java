@@ -65,7 +65,7 @@ public class Seats {
         this.seats.remove(seat);     
     }
     
-     public void remove(){
+     public void removeAll(){
         this.seats.removeAll(seats);     
     } 
 }

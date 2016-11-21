@@ -52,10 +52,11 @@ public class UserInterface {
             System.out.println("2:List bookings               |");
             System.out.println("3:List Destinations           |");
             System.out.println("4:List Destinations/airplanes |");
-            System.out.println("5:Total income for company    |");
+            System.out.println("5:Total income for company    |");            
             System.out.println("6:Exit                        |");
             System.out.println("------------------------------|");
 
+            
             int nInteger = inputInteger();
             
             //int nInteger = sc.nextInt();
@@ -269,15 +270,16 @@ public class UserInterface {
                         System.out.println();
                     }
                 }
-                break;
 
+                break;
+                
                 case 6: {
                     System.out.println("6: Exit ");
                     nRun = true;
                     sc.close();
                 }
                 break;
-
+                
                 default:
 
                     break;
@@ -418,8 +420,7 @@ public class UserInterface {
          }         
    }
     return  nChoice;
-   }
-   
+   }      
 }
 
     

@@ -26,7 +26,7 @@ public class Airplanes {
         this.airplanes.remove(airplane);     
     }
     
-     public void remove(){
+     public void removeAll(){
         this.airplanes.removeAll(airplanes);     
     }   
 
