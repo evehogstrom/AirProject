@@ -45,7 +45,7 @@ public class UserInterface {
 
         while (nRun != true) {
 
-            Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in,"Cp1252");
             System.out.println("Enter your command            ");
             System.out.println("------------------------------|");
             System.out.println("1:Booking                     |");
@@ -402,7 +402,7 @@ public class UserInterface {
    
    public int inputInteger(){
     
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in,"Cp1252");
     
     int nChoice;    
     nChoice=0;
