@@ -52,10 +52,11 @@ public class UserInterface {
             System.out.println("2:List bookings               |");
             System.out.println("3:List Destinations           |");
             System.out.println("4:List Destinations/airplanes |");
+            System.out.println("------------------------------|");
             System.out.println("5:Total income for company    |");            
+            System.out.println("------------------------------|");
             System.out.println("6:Exit                        |");
             System.out.println("------------------------------|");
-
             
             int nInteger = inputInteger();
             
@@ -279,6 +280,34 @@ public class UserInterface {
                     sc.close();
                 }
                 break;
+                
+                case 7:  {
+               
+                    System.out.println("7: Sending off Airplan  ");
+                                      
+                    while (bRun != true) {
+                        objArplanes.listAirplane();
+                        System.out.println();
+                        System.out.println("Enter airplan to send off:");
+                        String sDestination = sc.next();
+                        objArplane = objArplanes.findAirplanById(sDestination);
+                        if (objArplane == null) {
+                            bRun = false;
+                        } else {
+                            bRun = true;
+                        }
+                    }                   
+                     
+                    AirPlanSendOff task = new AirPlanSendOff();
+                    task.setObjects(objArplane,objArplanes);                   
+                                               
+                    Thread airplanThrads = new Thread(task);
+                    airplanThrads.start();
+                    
+                    
+                break;
+                
+                }
                 
                 default:
 
