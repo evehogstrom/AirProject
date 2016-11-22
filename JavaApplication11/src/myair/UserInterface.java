@@ -55,7 +55,9 @@ public class UserInterface {
             System.out.println("------------------------------|");
             System.out.println("5:Total income for company    |");            
             System.out.println("------------------------------|");
-            System.out.println("6:Exit                        |");
+            System.out.println("6:Exit                        |");            
+            System.out.println("------------------------------|");
+            System.out.println("7: Send off airplane          |");            
             System.out.println("------------------------------|");
             
             int nInteger = inputInteger();
@@ -74,19 +76,18 @@ public class UserInterface {
 
                     bRun = false;
                     while (bRun != true) {
+                        
                         objArplanes.listAirplane();
-
                         System.out.println();
                         System.out.println("Enter your destination:");
                         String sDestination = sc.next();
                         objArplane = objArplanes.findAirplanById(sDestination);
 
-                        if (objArplane == null) {
+                        if (objArplane == null || objArplane.getAirPlaneStatus() != AirPlanStatus.ONAIRPORT  ) {
                             bRun = false;
                         } else {
                             bRun = true;
                         }
-
                     }
 
                     System.out.println("Selected destination is " + objArplane.getFlightId() + " " + objArplane.getDepatureDestination() + " " + objArplane.getDepatureDateTime() + " - " + objArplane.getArrivaleDestination() + " " + objArplane.getArrivaleDateTime());
