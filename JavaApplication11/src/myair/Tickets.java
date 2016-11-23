@@ -35,6 +35,10 @@ public class Tickets {
         this.tickets.remove(ticket);     
     }
     
+     public void removeTicketByFligthNo(Ticket ticket,String sFlightNo){
+        this.tickets.remove(ticket);     
+    }
+     
      public void removeAll(){
         this.tickets.removeAll(tickets);     
     }
