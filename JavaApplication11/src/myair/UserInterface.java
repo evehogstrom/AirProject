@@ -58,7 +58,7 @@ public class UserInterface {
             System.out.println("|------------------------------|");
             System.out.println("|6:Exit                        |");            
             System.out.println("|------------------------------|");
-            System.out.println("|7: Send off airplane          |");            
+            System.out.println("|7:Send off airplane          |");            
             System.out.println("|------------------------------|");
             System.out.println("Enter your command: ");
             
