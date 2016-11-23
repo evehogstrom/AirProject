@@ -10,5 +10,5 @@ package myair;
  * @author User
  */
 public enum AirPlanStatus {
-    ONAIRPORT,TAKEOFF,FLIGHT,LANDING,REFULING
+    ONAIRPORT,TAKEOFF,FLIGHT,LANDING,REFUELING
 }
