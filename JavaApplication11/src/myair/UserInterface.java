@@ -255,7 +255,7 @@ public class UserInterface {
                 }
                 case 4: {
 
-                    System.out.println("4: List Destinations/");
+                    System.out.println("4: List Destinations");
                     System.out.println();
                     objArplanes.listAirplaneAndSeats();
                     System.out.println();
