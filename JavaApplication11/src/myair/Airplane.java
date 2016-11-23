@@ -39,7 +39,7 @@ public class Airplane {
         public String getArrivaleDestination() {
 		return arrivaleDestination;
 	}
-
+        
          public String getFlightId() {
 		return flightId;
 	}

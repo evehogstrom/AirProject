@@ -48,7 +48,7 @@ public class AirPlanSendOff implements Runnable {
                     objArplane.setAirPlaneStatus(AirPlanStatus.REFUELING);
                     objArplanes.listAirplane();
                     Thread.sleep(nTime);
-                    objArplane.setAirPlaneStatus(AirPlanStatus.ONAIRPORT);
+                    objArplane.setAirPlaneStatus(AirPlanStatus.ONAIRPORT);                    
                     objArplanes.listAirplane();
                     Thread.sleep(nTime);
                     
