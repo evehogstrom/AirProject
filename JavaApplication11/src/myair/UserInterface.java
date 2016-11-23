@@ -5,13 +5,11 @@
  */
 package myair;
 
-import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
+/*
  *
- * @author User
+ * @Frans Jansson
  */
 public class UserInterface {
 
@@ -46,8 +44,7 @@ public class UserInterface {
         while (nRun != true) {
 
             Scanner sc = new Scanner(System.in,"Cp1252");
-            
-            
+                     
             System.out.println("|------------------------------|");
             System.out.println("|1:Booking                     |");
             System.out.println("|2:List bookings               |");
