@@ -21,7 +21,18 @@ public class Customers {
     public void add(Customer customer){
         customers.add(customer);     
     }
-   
+    public Customer findCustomerById(int customerId ){ 
+		
+		for (Customer customer: customers)
+		{						
+			if(customer.getCustomerId() == customerId ){
+                            return customer;
+			}	
+		}
+			
+               return null;
+    }
+    
     public void ListCustomers(){        
         
         for (Customer customer : customers) {
