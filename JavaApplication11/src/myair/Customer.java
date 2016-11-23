@@ -5,12 +5,12 @@ public class Customer {
 
 	private static int customerId;
 	private String firstName;
-	private String sureName;
+	private String surName;
 	private boolean foodStatus;
 
-	public Customer(String firstName, String sureName) {
+	public Customer(String firstName, String surName) {
 		this.firstName = firstName;
-		this.sureName = sureName;
+		this.surName = surName;
 		customerId++;
 		foodStatus = false;
 	}
@@ -24,7 +24,7 @@ public class Customer {
 	}
 
 	public String getSureName() {
-		return sureName;
+		return surName;
 	}
 
 	public void setFoodStatus(boolean foodStatus) {
@@ -38,8 +38,8 @@ public class Customer {
 	@Override
 	public String toString() {
 		if (foodStatus == false)
-			return firstName+ " " + sureName + " " + "Food[no]";
+			return firstName+ " " + surName + " " + "Food[no]";
 		else
-			return firstName + " " + sureName + " " + "Food[yes]";
+			return firstName + " " + surName + " " + "Food[yes]";
 	}
 }
