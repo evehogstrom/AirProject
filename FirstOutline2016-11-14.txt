@@ -1,0 +1,63 @@
+﻿First day outline (2016-11-14)
+
+Airplan 				Airplans (collections)
+	type (enum)
+	seats		
+	flightID
+		
+seats			
+	seatno 1-5, 6-10
+	seatclass firstclass, economyclass
+	
+flights
+	flightID (sk127)
+	depature.destination (Arland,)
+	arrivale.destination (Teneriffa)
+	depature (datum/tid)
+	arrivale (datum/tid)
+	
+Customer				Customer (collections)
+	firtName
+	sureName
+	adress
+	age
+	gender
+	cusomerId
+
+Food					Foods	
+	price
+	foodtypelist (varmrätt,smörgås,) 
+	drinks (öl,vatten,kaffe,te,sprit)
+	snacks (jordnötter,chisp,choklad,godis)
+	type (firstclas, economyclass)
+			
+Ticket
+	price
+	ticketType (Enum)
+	ticketId
+	
+Reservation				Reservations
+	customer
+	depature.destination (Arland)
+	arrivale.destination (Teneriffa)
+	ticket
+	food yes/no	
+	foods	
+	flight
+	seatnr			
+	ticketprice
+	foodprice
+	totalprice	
+		
+Destinations
+	Destinationer (Teneriffa,Malta,Stockholm )
+	Dates/time		
+
+Economy
+	income 
+	totalfood
+	totalticket
+				
+UserInterface(UI) consol   if time GUI
+	Main
+		
