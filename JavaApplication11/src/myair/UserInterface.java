@@ -394,7 +394,7 @@ public class UserInterface {
         objSeat = new Seat(15, "Economic Class", 5000);
         objSeats.add (objSeat);
         
-        objArplane = new Airplane(objSeats, "Gulfstream One","ARN321","Malaga","2016-12-24 07:00","Arlanda","2016-12-24 14:00");
+        objArplane = new Airplane(objSeats, "Gulfstream One","ARN321","Arlanda","2016-12-24 07:00","Malaga","2016-12-24 14:00");
         objArplanes.add(objArplane);   
               
        Seats objSeats2 = new Seats();
