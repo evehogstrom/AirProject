@@ -36,9 +36,18 @@ public class Airplane {
 		return depatureDestination;
 	}
         
+        public void setDepatureDestination(String depatureDestination) {
+		this.depatureDestination = depatureDestination;
+	}
+                
         public String getArrivaleDestination() {
 		return arrivaleDestination;
 	}
+        
+        public void setArrivaleDestination(String arrivaleDestination) {
+		this.arrivaleDestination = arrivaleDestination;
+	}
+        
         
          public String getFlightId() {
 		return flightId;

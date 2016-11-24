@@ -48,7 +48,19 @@ public class AirPlanSendOff implements Runnable {
                     objArplane.setAirPlaneStatus(AirPlanStatus.REFUELING);
                     objArplanes.listAirplane();
                     Thread.sleep(nTime);
-                    objArplane.setAirPlaneStatus(AirPlanStatus.ONAIRPORT);                    
+                    objArplane.setAirPlaneStatus(AirPlanStatus.ONAIRPORT);                   
+                    
+                    Seats seats;
+                    seats = objArplane.getSeats();                    
+                    seats.clearSeats();
+                    
+                    String sArrivaleDestination = objArplane.getArrivaleDestination();
+                    String sDepatureDestination = objArplane.getDepatureDestination();
+                            
+                    objArplane.setDepatureDestination(sArrivaleDestination);
+                    objArplane.setArrivaleDestination(sDepatureDestination);
+                    
+                         
                     objArplanes.listAirplane();
                     Thread.sleep(nTime);
                     
@@ -56,6 +68,6 @@ public class AirPlanSendOff implements Runnable {
                 
             }          
 }
- 
+    
    }
 }

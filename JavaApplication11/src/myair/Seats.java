@@ -61,6 +61,13 @@ public class Seats {
                 
        }
      
+    public void clearSeats(){
+         for (Seat nextSeat: seats) {
+           nextSeat.setReserved(false);             
+         }
+        
+    }
+        
      public void remove(Seat seat){
         this.seats.remove(seat);     
     }
